@@ -1,0 +1,118 @@
+body{
+    background-color: lightgreen;
+    
+}
+#header {
+    margin: 3% 3% 3% 3%;
+    border-color: azure;
+    border-style: dashed;
+    border-width: 2px;
+    vertical-align: middle;
+}
+
+
+h1{
+    
+    margin-left:5%;
+    margin-top:5%;
+}
+
+h5{
+    float: right;
+    text-align: center;
+}
+
+#logo {
+    float: right;
+    overflow: auto;
+    margin: 10px 10px 10px 10px;
+    max-width: 25%; 
+   
+}
+
+#botoes{
+    margin: 3% 3% 3% 3%;
+    border-color: azure;
+    border-style: dashed;
+    border-width: 2px;
+
+    
+}
+
+#carousel-mater{
+    
+    margin: 3% 3% 3% 3%;
+    border-color: azure;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+#carousel-desen{
+    
+    margin: 3% 3% 3% 3%;
+    border-color: azure;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.carousel-inner img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+   
+    height: 320px;
+  }
+
+#sobre{
+    
+    margin: 3%;
+    border-color: azure;
+    border-style: dashed;
+    border-width: 2px;
+    
+}
+
+#imgsob{
+    float: right; 
+    margin: auto;
+    max-width:33%; 
+}
+
+#footer {
+    margin: 3% 3% 3% 3%;
+    border-color: azure;
+    border-style: dashed;
+    border-width: 2px;
+    vertical-align:bottom;
+    
+}
+audio {
+    padding: 1% 1% 1% 1%;
+    
+}
+
+video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 400px;
+    
+}
+
+#pdfdoc{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 400px;
+}
+
+#ytube{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 400px;
+}

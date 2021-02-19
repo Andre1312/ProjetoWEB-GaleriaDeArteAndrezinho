@@ -1,0 +1,150 @@
+	<!-- Cabeçalho do documento HTML         -->
+	<!-- ------------------------------      -->
+	<!-- UNIT-PE                             -->
+	<!-- SPW turma 3                         -->
+	<!-- Prof. Esp. Guibson                  -->
+	<!-- Programação WEB                     -->
+	<!-- Alunos: André Barros / Andrea Alves -->
+	<!-- Projeto WEB                         -->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+ 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+<!--
+    <script type="text/javascript" href="js/jquery.min.js"></script>
+    <script type="text/javascript" href="js/popper.min.js"></script>
+    <script type="text/javascript" href="js/bootstrap.min.js"></script>
+-->    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+    
+    <title> Galeria de Arte de Andrezinho - Desenhos </title>
+</head>
+
+	<body>
+		<div id="header" class="container">
+            <img id="logo" src="mmimage/home_image.png" class="img-thumbnail" alt="logo" >
+            <h1 class="display-3">Galeria de Arte de Andrezinho </h1>
+            <h4 align="right"><em>Desenhos</em></h4>
+        </div>
+        
+        <div  id="botoes" class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                <h3>Principal</h3>
+                <p>Voltar para página principal.</p><br>
+                    <p><a href="index.html"><button type="button" class="btn btn-danger btn-block">Principal</button></a></p>
+                </div>
+                
+                <div class="col-sm-4">
+                <h3>Materiais</h3>
+                <p>Materiais usados para desenhar e pintar.</p><br>
+                    <p><a href="mater.html"><button type="button" class="btn btn-success btn-block">Materiais</button></a></p>
+                </div>
+                
+                <div class="col-sm-4">
+                <h3>Sobre</h3>        
+                <p>Um pouco sobre mim.</p><br>
+                    <p><a href="sobre.html"><button type="button" class="btn btn-primary  btn-block">Sobre</button></a></p>
+                </div>
+                
+            </div>
+        </div>
+        
+         
+        <div  id="carousel-desen" class="container">
+            
+            <div id="desen" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                  <ul class="carousel-indicators">
+                    <li data-target="#desen" data-slide-to="0" class="active"></li>
+                    <li data-target="#desen" data-slide-to="1"></li>
+                    <li data-target="#desen" data-slide-to="2"></li>
+                    <li data-target="#desen" data-slide-to="3"></li>
+                    <li data-target="#desen" data-slide-to="4"></li>
+                    <li data-target="#desen" data-slide-to="5"></li>
+                    <li data-target="#desen" data-slide-to="6"></li>
+                  </ul>
+
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="mmimage/des/des_img_19.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                       <img src="mmimage/des/des_img_13.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                       <img src="mmimage/des/des_img_14.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                       <img src="mmimage/des/des_img_17.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                       <img src="mmimage/des/des_img_33.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                       <img src="mmimage/des/des_img_34.png" alt="">
+                    </div>
+                     <div class="carousel-item">
+                       <img src="mmimage/des/des_img_35.png" alt="">
+                    </div>  
+                               
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#desen" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#desen" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+
+</div>
+        </div>
+        
+        <div id="footer" class="container">
+            
+            <div  id="col-footer" class="container">
+            <div class="row">
+                 <div class="col-sm-4">
+                    <br/>
+                <audio controls="" autoplay="" name="media"><source src="mmaudio/bolero_ravel.mp3" type="audio/mpeg"></audio>
+                </div>
+                
+                <div class="col-sm-4">
+                
+                </div>
+                
+                <div class="col-sm-4">
+                    <br/>
+                <h6>Galeria de Arte de Andrezinho @2020</h6>
+                </div>
+                
+            </div>
+        
+            </div>
+        </div>
+        
+	</body>
+
+</html>
